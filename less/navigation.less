@@ -1,1 +1,44 @@
 // Navigation code here
+@font-color: black;
+
+
+
+
+//mixins
+.container() {
+    max-width: 800px;
+    margin: 0px auto;
+    ;
+}
+
+.flexDirection() {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.size-decor() {
+    text-decoration: none;
+    font-size: 2rem;
+    color: @font-color;
+}
+
+//nesting
+html {
+    .container();
+}
+
+header {
+    width: 100%;
+    margin: 50px;
+
+    nav {
+        width: 100%;
+        .flexDirection();
+
+        a {
+            width: 100%;
+            .size-decor();
+        }
+    }
+}
