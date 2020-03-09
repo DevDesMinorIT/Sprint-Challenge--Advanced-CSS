@@ -34,14 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+## The adaptive sites use percentages as width values rather than assigning "hard coded" values which are set in stone.  While fully responsive sites utilize breaking points via media queries  (hard coded values given at various assigned widths)  and percentages which do not employ hard coded values providing aesthetically pleasing view expierences across all devices of varying sizes.  
 2. Describe what it means to be mobile first vs desktop first.
+
+## They 're layout design methodologies which dictate how you code. Starting at the  largest width first and setting media queries smaller and smaller would mean you are following a desktop first design method. While mobile first would means starting at the smallest width and seting the media queries for widths that are increasingly larger. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+## It would mean that 1 rem would equal 10px and thats easier to handle converting px to rem units.
+
 4. How would you describe preprocessing to someone new to CSS?
+
+## Preprocessing is a way to write CSS with more of a JavaScript syntax. It utilizes mixins which I written similar to that of how JS functions are written.  However they make it so there isn't so much repitition within your stylesheet. Also the use of nesting provides a much easier go at adhering to the rules of specificity when selecting and modifying elements. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+## Mixins were giving me a rough time until I realized it was just like writting a JavaScript function using the braces and curly brackets to execute multiple statements, except you arent naming a function whatever you want you are using the html class (which uses dot notation). 
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -49,6 +58,7 @@ You are expected to be able to answer all these questions. Your responses contri
 Follow these steps to set up your project:
 
 ### Git Set up
+## Mixins were giving me a rough time until I realized it was just like writting a JavaScript function using the braces and curly brackets to execute multiple statements, except you arent naming a function whatever you want you are using the html class (which uses dot notation). 
 
 - [ ] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
